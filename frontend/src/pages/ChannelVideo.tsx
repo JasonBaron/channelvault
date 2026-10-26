@@ -110,7 +110,7 @@ const ChannelVideo = ({ videoType }: ChannelVideoProps) => {
   return (
     channel && (
       <>
-        <title>{`TA | Channel: ${channel.channel_name}`}</title>
+        <title>{`ChannelVault | Channel: ${channel.channel_name}`}</title>
         <ScrollToTopOnNavigate />
         <div className="boxed-content">
           <div className="info-box info-box-2">

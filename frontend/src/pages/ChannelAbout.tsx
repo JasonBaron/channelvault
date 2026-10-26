@@ -111,7 +111,7 @@ const ChannelAbout = () => {
 
   return (
     <>
-      <title>{`TA | Channel: About ${channel.channel_name}`}</title>
+      <title>{`ChannelVault | Channel: About ${channel.channel_name}`}</title>
       <div className="boxed-content">
         <div className="info-box info-box-3">
           <ChannelOverview

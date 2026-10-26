@@ -14,7 +14,7 @@ const ErrorPage = () => {
 
   return (
     <>
-      <title>TA | Oops!</title>
+      <title>ChannelVault | Oops!</title>
       <Colours />
 
       <div id="error-page" style={{ margin: '10%' }}>

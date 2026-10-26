@@ -1,55 +1,42 @@
 const About = () => {
   return (
     <>
-      <title>TA | About</title>
-
+      <title>ChannelVault | About</title>
       <div className="boxed-content">
         <div className="title-bar">
-          <h1>About The Tube Archivist</h1>
+          <h1>About ChannelVault</h1>
         </div>
         <div className="about-section">
-          <h2>Useful Links</h2>
+          <h2>A self-hosted media harvester and library</h2>
           <p>
-            This project is in active and constant development, take a look at the{' '}
-            <a href="https://github.com/tubearchivist/tubearchivist#roadmap" target="_blank">
-              roadmap
-            </a>{' '}
-            for a overview.
+            An independent fork maintained by Jason Baron, focused on usability, clearer
+            configuration, and Plex workflows. YouTube is currently the supported source. Additional
+            media sources are a future direction.
           </p>
+        </div>
+        <div className="about-section">
+          <h2>Built on Tube Archivist</h2>
           <p>
-            All functionality is documented in our up-to-date{' '}
-            <a href="https://docs.tubearchivist.com" target="_blank">
-              user guide
-            </a>
-            .
-          </p>
-          <p>
-            All contributions are welcome: Open an{' '}
-            <a href="https://github.com/tubearchivist/tubearchivist/issues" target="_blank">
-              issue
-            </a>{' '}
-            for any bugs and errors, join us on{' '}
-            <a href="https://www.tubearchivist.com/discord" target="_blank">
-              Discord
-            </a>{' '}
-            to discuss details. The{' '}
+            ChannelVault builds on the work of the{' '}
             <a
-              href="https://github.com/tubearchivist/tubearchivist/blob/master/CONTRIBUTING.md"
+              href="https://github.com/tubearchivist/tubearchivist"
               target="_blank"
+              rel="noreferrer"
             >
-              contributing
-            </a>{' '}
-            page is a good place to get started.
-          </p>
-        </div>
-        <div className="about-section">
-          <h2>Donate</h2>
-          <p>
-            Here are{' '}
-            <a href="https://github.com/tubearchivist/tubearchivist#donate" target="_blank">
-              some links
+              Tube Archivist contributors
             </a>
-            , if you want to buy the developer a coffee. Thank you for your support!
+            . Original copyright notices and the GPLv3 license are retained.
+          </p>
+          <p>
+            This fork is independently maintained and is not affiliated with or supported by the
+            upstream project. Please do not report ChannelVault issues to Tube Archivist.
+          </p>
+          <p>
+            The{' '}
+            <a href="https://docs.tubearchivist.com" target="_blank" rel="noreferrer">
+              upstream user guide
+            </a>{' '}
+            describes inherited functionality; ChannelVault changes may differ.
           </p>
         </div>
       </div>

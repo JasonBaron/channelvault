@@ -118,7 +118,7 @@ const SettingsScheduling = () => {
 
   return (
     <>
-      <title>TA | Scheduling Settings</title>
+      <title>ChannelVault | Scheduling Settings</title>
       <div className="boxed-content">
         <SettingsNavigation />
         <Notifications pageName={'all'} />

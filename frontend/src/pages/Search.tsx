@@ -93,7 +93,7 @@ const Search = () => {
 
   return (
     <>
-      <title>TubeArchivist</title>
+      <title>ChannelVault</title>
 
       <EmbeddableVideoPlayer videoId={videoId} />
 

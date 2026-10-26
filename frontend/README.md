@@ -1,4 +1,4 @@
-# Tubearchivist Frontend React
+# ChannelVault Frontend (React)
 
 # Folder structure
 

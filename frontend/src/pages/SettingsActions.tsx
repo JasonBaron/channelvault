@@ -41,7 +41,7 @@ const SettingsActions = () => {
 
   return (
     <>
-      <title>TA | Actions</title>
+      <title>ChannelVault | Actions</title>
       <div className="boxed-content">
         <SettingsNavigation />
         <Notifications

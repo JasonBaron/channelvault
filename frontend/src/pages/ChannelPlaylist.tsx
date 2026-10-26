@@ -56,7 +56,7 @@ const ChannelPlaylist = () => {
 
   return (
     <>
-      <title>TA | Channel: Playlists</title>
+      <title>ChannelVault | Channel: Playlists</title>
       <ScrollToTopOnNavigate />
       <div className="boxed-content">
         <div className="view-controls">

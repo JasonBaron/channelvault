@@ -66,7 +66,7 @@ const SettingsUser = () => {
 
   return (
     <>
-      <title>TA | User Settings</title>
+      <title>ChannelVault | User Settings</title>
       <div className="boxed-content">
         <SettingsNavigation />
         <Notifications pageName={'all'} />

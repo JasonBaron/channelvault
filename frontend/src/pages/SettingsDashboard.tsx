@@ -98,7 +98,7 @@ const SettingsDashboard = () => {
 
   return (
     <>
-      <title>TA | Settings Dashboard</title>
+      <title>ChannelVault | Settings Dashboard</title>
       <div className="boxed-content">
         <SettingsNavigation />
         <Notifications pageName={'all'} />

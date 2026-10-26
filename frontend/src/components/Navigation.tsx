@@ -19,7 +19,12 @@ const Navigation = () => {
   return (
     <div className="boxed-content">
       <div className="top-nav">
-        <Link to={Routes.Home} className="nav-logo">
+        <Link
+          to={Routes.Home}
+          className="nav-logo"
+          aria-label="ChannelVault home"
+          title="ChannelVault"
+        >
           <div></div>
         </Link>
         <div className="nav-items">

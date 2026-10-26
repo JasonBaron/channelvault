@@ -204,7 +204,7 @@ const Video = () => {
 
   return (
     <>
-      <title>{`TA | ${video.title}`}</title>
+      <title>{`ChannelVault | ${video.title}`}</title>
       <ScrollToTopOnNavigate />
 
       <VideoPlayer

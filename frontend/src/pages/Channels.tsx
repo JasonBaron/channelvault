@@ -82,7 +82,7 @@ const Channels = () => {
 
   return (
     <>
-      <title>TA | Channels</title>
+      <title>ChannelVault | Channels</title>
       <ScrollToTopOnNavigate />
       <div className="boxed-content">
         <div className="title-split">

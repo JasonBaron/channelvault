@@ -183,7 +183,7 @@ const SettingsApplication = () => {
 
   return (
     <>
-      <title>TA | Application Settings</title>
+      <title>ChannelVault | Application Settings</title>
       <div className="boxed-content">
         <SettingsNavigation />
         <Notifications pageName={'all'} />

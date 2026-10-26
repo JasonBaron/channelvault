@@ -68,7 +68,7 @@ const Playlists = () => {
 
   return (
     <>
-      <title>TA | Playlists</title>
+      <title>ChannelVault | Playlists</title>
       <ScrollToTopOnNavigate />
       <div className="boxed-content">
         <div className="title-split">

@@ -74,12 +74,12 @@ const Login = () => {
 
   return (
     <>
-      <title>TA | Welcome</title>
+      <title>ChannelVault | Welcome</title>
       <Colours />
       <div className="boxed-content login-page">
-        <img alt="tube-archivist-logo" />
-        <h1>Tube Archivist</h1>
-        <h2>Your Self Hosted YouTube Media Server</h2>
+        <img alt="ChannelVault logo" />
+        <h1>ChannelVault</h1>
+        <h2>Your self-hosted media library</h2>
 
         {errorMessage !== null && (
           <p className="danger-zone">

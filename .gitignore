@@ -14,3 +14,22 @@ backend/.env
 node_modules
 
 .editorconfig
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Generated files and development caches
+*.tsbuildinfo
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local logs and macOS metadata
+*.log
+.DS_Store

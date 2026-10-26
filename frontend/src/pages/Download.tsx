@@ -169,7 +169,7 @@ const Download = () => {
 
   return (
     <>
-      <title>TA | Downloads</title>
+      <title>ChannelVault | Downloads</title>
       <ScrollToTopOnNavigate />
       <div className="boxed-content">
         <div className="title-bar">

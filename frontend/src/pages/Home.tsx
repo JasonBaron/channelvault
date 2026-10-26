@@ -177,7 +177,7 @@ const Home = () => {
 
   return (
     <>
-      <title>TubeArchivist</title>
+      <title>ChannelVault</title>
       <ScrollToTopOnNavigate />
 
       <EmbeddableVideoPlayer videoId={videoId} />

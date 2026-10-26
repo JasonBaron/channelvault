@@ -131,7 +131,7 @@ const Playlist = () => {
 
   return (
     <>
-      <title>{`TA | Playlist: ${playlist.playlist_name}`}</title>
+      <title>{`ChannelVault | Playlist: ${playlist.playlist_name}`}</title>
       <ScrollToTopOnNavigate />
       <div className="boxed-content">
         <div className="title-bar">

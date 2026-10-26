@@ -12,12 +12,12 @@ const Footer = () => {
     <div className="footer">
       <div className="boxed-content">
         <span>© 2021 - {currentYear} </span>
-        <span>TubeArchivist </span>
+        <span>ChannelVault · Based on Tube Archivist </span>
         <span>{version} </span>
         {taUpdate?.version && (
           <>
             <span className="danger-zone">
-              {taUpdate.version} available
+              Upstream Tube Archivist {taUpdate.version} available
               {taUpdate.is_breaking && <span className="danger-zone">Breaking Changes!</span>}
             </span>{' '}
             <span>
@@ -25,7 +25,7 @@ const Footer = () => {
                 href={`https://github.com/tubearchivist/tubearchivist/releases/tag/${taUpdate.version}`}
                 target="_blank"
               >
-                Release Page
+                Upstream Release
               </a>{' '}
               |{' '}
             </span>
@@ -34,17 +34,17 @@ const Footer = () => {
         <span>
           <Link to={Routes.About}>About</Link> |{' '}
           <a href="https://github.com/tubearchivist/tubearchivist" target="_blank">
-            GitHub
+            Upstream GitHub
           </a>{' '}
           |{' '}
           <a href="https://hub.docker.com/r/bbilly1/tubearchivist" target="_blank">
-            Docker Hub
+            Upstream Docker Hub
           </a>{' '}
           |{' '}
           <a href="https://www.tubearchivist.com/discord" target="_blank">
-            Discord
+            Upstream Discord
           </a>{' '}
-          | <a href="https://www.reddit.com/r/TubeArchivist/">Reddit</a>
+          | <a href="https://www.reddit.com/r/TubeArchivist/">Upstream Reddit</a>
         </span>
       </div>
     </div>
