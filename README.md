@@ -2,7 +2,7 @@
 
 A self-hosted media harvester and library.
 
-ChannelVault is Jason Baron's independent fork of [Tube Archivist](https://github.com/tubearchivist/tubearchivist), focused on clearer configuration, usability, and Plex workflows. YouTube is currently the supported source; support for other media sources is a future direction, not an implemented feature.
+ChannelVault is an independent fork of [Tube Archivist](https://github.com/tubearchivist/tubearchivist), focused on clearer configuration, usability, and Plex workflows. YouTube is currently the supported source; support for other media sources is a future direction, not an implemented feature.
 
 ## Attribution and license
 
