@@ -1,6 +1,6 @@
 # Contributing to ChannelVault
 
-ChannelVault is an independent personal fork maintained by Jason Baron. Coding agents are permitted under the policies in [AGENTS.md](AGENTS.md).
+ChannelVault is an independent personal fork maintained. Coding agents are permitted under the policies in [AGENTS.md](AGENTS.md).
 
 Keep changes focused, preserve existing data compatibility, and update documentation with user-visible changes. Retain original copyright notices and the GPLv3 license. Do not send fork-specific issues or support requests to Tube Archivist.
 
